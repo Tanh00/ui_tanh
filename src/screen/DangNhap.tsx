@@ -16,14 +16,11 @@ export default function DangNhap() {
       <Text style={styles.subtitle}>Đăng nhập</Text>
 
       <Text style={styles.label}>Email</Text>
-      <TextInput placeholder="Enter your email" 
-      style={styles.input} />
-      
+      <TextInput style={styles.input} placeholder="Nhập email của bạn" />
+
       <Text style={styles.label}>Password</Text>
-      <TextInput
-        placeholder="Enter your password"
+      <TextInput style={styles.input} placeholder="Nhập mật khẩu của bạn"
         secureTextEntry
-        style={styles.input}
       />
 
       <TouchableOpacity style={styles.loginButton}>
