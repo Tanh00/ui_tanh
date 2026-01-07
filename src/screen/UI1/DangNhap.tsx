@@ -1,3 +1,4 @@
+import React from 'react';
 import { View, Text, TextInput, TouchableOpacity, Image } from 'react-native';
 import { styles } from './DangNhapStyte';
 
@@ -6,7 +7,7 @@ export default function DangNhap() {
     <View style={styles.container}>
       <View style={styles.logoBox}>
         <Image
-          source={require('../../assets/hunonic.png')}
+          source={require('../../../assets/hunonic.png')}
           style={styles.logoImage}
           resizeMode="contain"
         />
@@ -18,7 +19,7 @@ export default function DangNhap() {
       <Text style={styles.label}>Email</Text>
       <TextInput style={styles.input} placeholder="Nhập email của bạn" />
 
-      <Text style={styles.label}>Password</Text>
+      <Text style={styles.label}>Mật khẩu</Text>
       <TextInput style={styles.input} placeholder="Nhập mật khẩu của bạn"
         secureTextEntry
       />
