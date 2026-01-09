@@ -7,7 +7,6 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingTop: 50,
   },
-
  
   title: {
     fontSize: 22,
@@ -22,7 +21,6 @@ export const styles = StyleSheet.create({
     marginBottom: 24,
   },
 
-
   label: {
     fontSize: 13,
     color: '#334155',
@@ -30,7 +28,6 @@ export const styles = StyleSheet.create({
     marginTop: 12,
     fontWeight: '500',
   },
-
   
   inputBox: {
     backgroundColor: '#fff',
@@ -46,7 +43,6 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     color: '#0f172a',
   },
-
  
   buttonBox: {
     marginTop: 28,
@@ -63,7 +59,6 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
   },
-
   
   loginText: {
     textAlign: 'center',
