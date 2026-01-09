@@ -31,6 +31,7 @@ export default function DangNhap() {
       <Text style={styles.registerText}>
         Bạn chưa có tài khoản? <Text style={styles.registerLink}>Đăng ký</Text>
       </Text>
+      
     </View>
   );
 }

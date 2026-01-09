@@ -16,7 +16,6 @@ export default function Dashboard() {
           style={styles.avatar}
         />
       </View>
-
      
       <View style={styles.statRow}>
         <View style={styles.statCard}>
@@ -29,19 +28,16 @@ export default function Dashboard() {
           <Text style={styles.statValue}>0</Text>
         </View>
       </View>
-
       
       <View style={styles.card}>
         <Text style={styles.cardTitle}>Tổng quan tiến độ</Text>
         <Text style={styles.emptyText}>Chưa có dự án nào được giao</Text>
       </View>
-
       
       <View style={styles.card}>
         <Text style={styles.cardTitle}>Lịch sử Test Casee</Text>
         <Text style={styles.emptyText}>Chưa có lịch sử test case</Text>
       </View>
-
       
       <TouchableOpacity style={styles.fab}>
         <Text style={styles.fabIcon}>＋</Text>
