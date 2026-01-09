@@ -3,66 +3,73 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    paddingHorizontal: 24,
-    paddingTop: 80,
+    backgroundColor: '#f8fafc',
+    paddingHorizontal: 20,
+    paddingTop: 50,
   },
 
+ 
   title: {
-    fontSize: 32,
+    fontSize: 22,
     fontWeight: '700',
     color: '#0f172a',
     marginBottom: 4,
   },
 
   subTitle: {
-    fontSize: 22,
+    fontSize: 14,
     color: '#64748b',
     marginBottom: 24,
   },
 
+
   label: {
-    fontSize: 14,
-    fontWeight: '500',
-    color: '#0f172a',
+    fontSize: 13,
+    color: '#334155',
     marginBottom: 6,
+    marginTop: 12,
+    fontWeight: '500',
   },
 
+  
   inputBox: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    paddingHorizontal: 14,
     height: 48,
-    borderWidth: 1,
-    borderColor: '#e2e8f0',
-    borderRadius: 10,
-    paddingHorizontal: 12,
     justifyContent: 'center',
-    marginBottom: 16,
+    borderWidth: 1,
+    borderColor: '#e5e7eb',
   },
 
   input: {
-    fontSize: 14,
+    fontSize: 15,
     color: '#0f172a',
   },
 
+ 
   buttonBox: {
+    marginTop: 28,
+    backgroundColor: '#2563eb',
     height: 50,
-    backgroundColor: '#1d4ed8',
-    borderRadius: 12,
+    borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 10,
+    elevation: 3,
   },
 
   buttonText: {
     color: '#fff',
-    fontSize: 20,
+    fontSize: 16,
     fontWeight: '600',
   },
 
+  
   loginText: {
-    marginTop: 12,
     textAlign: 'center',
-    fontSize: 16,
-    color: '#e70f57ff',
+    color: '#475569',
+    marginTop: 20,
+    fontSize: 14,
   },
 
   loginLink: {

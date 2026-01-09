@@ -28,7 +28,7 @@ export default function DangKy() {
                  secureTextEntry />
             </View>
             <TouchableOpacity style={styles.buttonBox}>
-                    <Text style={styles.loginText}>Đăng Ký</Text>
+                    <Text style={styles.buttonText}>Đăng Ký</Text>
                   </TouchableOpacity>
             <Text style={styles.loginText}>
                 Đã có tài khoản? <Text style={styles.loginLink}>Đăng Nhập</Text>
